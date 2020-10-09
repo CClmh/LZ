@@ -1,0 +1,113 @@
+*{
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(../img/login_bg.jpg);
+	background-repeat:no-repeat ;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+li{
+    list-style: none;
+}
+.header{
+	margin: 40px;
+}
+
+
+.footer{
+	display: block;
+	padding: 30px 0;
+	margin-top: 60px;
+	color: gray;
+}
+
+.foot p{
+	font-size: 13px;
+	font-weight: 600;
+	text-align: center;
+}
+
+#loginbox {
+	width: 350px;
+	height: 450px;
+	background: url(../img/login_form.jpg);
+	border: 1px solid darkgray;
+	margin-top: 40px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 0 20px darkgray;
+	-webkit-box-shadow:0 0 20px darkgray ;
+	-moz-box-shadow:0 0 20px darkgray ;
+	border-radius:10px;
+}
+
+input{
+	width: 200px;
+	height: 30px;
+	border-radius:5px;
+}
+			
+.loginboxform {
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	margin: 150px auto;
+	border-radius:10px;
+}
+
+.loginboxtop{
+	width: 100%;
+	height: 60px;
+	background:#F8EFC0;
+	float:right;
+	box-shadow: 5px 3px 10px darkgray;
+	-webkit-box-shadow:5px 3px 10px darkgray ;
+	-moz-box-shadow:5px 3px 10px darkgray ;
+	margin:30px auto;
+	border-radius:5px;
+}
+
+.log{
+	background: #F8EFC0;
+	width: 220px;
+	height: 40px;
+	font-size: 16px;
+}
+			
+h2{
+	text-align: center;
+	line-height:20px;
+	color: #EB9316;
+	font-family: '微软雅黑';
+}
+
+.code{
+	background-color: silver;
+    font-family:Arial; /*设置字体*/
+    font-style:initial;
+    color:brown;
+    font-size:20px;
+    border:0;
+    padding:2px 3px;
+    letter-spacing:3px;
+    font-weight:bolder;                         
+    width:100px;
+    height:30px;      
+    margin: 0 auto;
+}
+a{
+    text-decoration:none;
+    font-size:14px;
+    color:#288bc4;
+}
+a:hover{
+    text-decoration:underline;
+} 

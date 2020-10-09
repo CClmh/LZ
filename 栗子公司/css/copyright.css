@@ -1,0 +1,51 @@
+*{
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.header{
+	display: block;
+}
+
+
+iframe{
+	width: 100%;
+	height:650px;
+	display: block;
+}
+
+.copyright_top{
+	margin-bottom: 20px;
+}
+.copyright_top img{
+	width: 100%;
+}
+
+.copyrightmi li a{
+	color: gray;
+	font-size: 20px;
+}
+.optioncard{
+	margin:0 2%;
+	line-height: 2em;
+}
+
+.optioncard h2{
+	font-family: arial;
+	font-weight: 600;
+}
+.optioncard h5{
+	font-family: arial;
+	font-weight: 600;
+}

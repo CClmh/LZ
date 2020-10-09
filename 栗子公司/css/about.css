@@ -1,0 +1,123 @@
+*{
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.header{
+	display: block;
+}
+
+
+iframe{
+	width: 100%;
+	display: block;
+	height:650px;
+
+}
+
+.nr{
+	background: url(../img/banner.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 250px;
+}
+.nr a{
+	color: white;
+	font-size: 17px;
+	align-content: center;
+}
+.nr span{
+	font-size: 28px;
+	color: white;
+}
+
+.nr ul{
+    
+        display:inline-block
+}
+.xxkmb p{
+   	color: gray;
+    text-align:left;
+
+   }
+   
+.xxkmb h2{
+     	text-align: center;
+     }
+     
+
+   
+.ywjg{
+	font-family:"新宋体";
+	font-weight: 700;
+	font-size: 32px;
+	margin-left: 20px;
+
+}
+
+.gltd{
+
+	font-family:"新宋体";
+    font-weight: 700;
+	font-size: 32px;
+	margin-left: 20px;
+}
+.gltd1 p{
+	color: gray;
+}
+.picture img{
+	width: 200px;
+	height: 200px;
+}
+.s1{
+	margin-left: 50px;
+	font-size: 32px;
+ font-family: "新宋体";
+}
+
+.qywh{
+	background-color:#F7F7F7
+}
+.qywh h2{
+	font-weight: 700;
+}
+.qywh h4{
+	color: blue;
+}
+.qywh span{
+	font-size: 22px;
+	font-weight: 600;
+	font-family: "仿宋";
+}
+.qywh p{
+	font-size: 16px;
+}
+.qywh img{
+	width: 100%;
+height: 100%;
+}
+
+.xlcs{
+margin-left: 15px;
+	font-size: 15px;
+	color: gray;	
+padding-bottom: 15px;
+}
+
+.bgdd1{
+	margin-left:110px ;
+}
+#bgdd li{
+	margin-right: 10px;
+}

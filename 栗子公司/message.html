@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>简历</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="css/message.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery-3.4.1.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="js/message.js" ></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<a href="index.html"><img src="img/logo.png"/></a>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-3 col-md-6">
+					<form class="form-horizontal" method="get" action="flow.html">
+						<span class="heading">
+							联系信息
+						</span>
+						<div class="form-group">
+							<input name="name" id="name" class="form-control" type="text" placeholder="姓名" required="required"/>
+						</div>
+						<div class="form-group">
+							<input name="address" id="address" class="form-control" type="text" placeholder="地址" required="required"/> 
+						</div>
+						<div class="form-group">
+							<input name="phone" id="phone" class="form-control" type="text" placeholder="手机号" pattern="1\d{10}" required="required"/>
+						</div>
+						<div class="form-group">
+							<input name="email" id="email" class="form-control" type="text" placeholder="电子邮箱" pattern="[0-9a-zA-Z_.-]+[@][0-9a-zA-Z_.-]+([.][a-zA-Z]+){1,2}" required="required"/>
+						</div>
+						
+						<span class="heading">
+							工作经验
+						</span>
+						<div class="form-group">
+							<input name="position" id="position" class="form-control" type="text" placeholder="工作职位"/>
+						</div>
+						<div class="form-group">
+							<input name="enname" id="enname" class="form-control" type="text" placeholder="公司名称" /> 
+						</div>
+						<span class="cen">
+							工作描述
+						</span>
+						<div class="form-group">
+							<textarea id="describe" name="describe" class="form-control" maxlength="1200" rows="5"></textarea>
+						</div>
+						
+						<span class="heading">
+							学历
+						</span>
+						<div class="form-group">
+							<input name="school" id="school" class="form-control" type="text" placeholder="学校"/>
+						</div>
+						<div class="form-group">
+							<input name="speciality" id="speciality" class="form-control" type="text" placeholder="专业" /> 
+						</div>
+						<div class="form-group">
+							<!--<input name="graduate" id="graduate" class="form-control" type="text" placeholder="学历" /> -->
+							<select class="form-control" name="graduate" id="graduate">
+								<option value="0" disabled="disabled" selected="selected">学历</option>
+								<option value="1">无</option>
+								<option value="2">小学</option>
+								<option value="3">初中</option>
+								<option value="4">高中</option>
+								<option value="5">中专</option>
+								<option value="6">大专</option>
+								<option value="7">本科</option>
+								<option value="8">硕士</option>
+								<option value="4">博士及以上</option>
+							</select>
+						</div>
+						
+						<span class="heading">
+							补充信息
+						</span>
+						<div class="form-group">
+							<textarea id="supplement" name="supplement" class="form-control" maxlength="1200" rows="5"></textarea>
+						</div>
+						<br />
+						<br />
+						<div class="form-group">
+							<input name="submit" id="submit" class="form-control smt" type="submit"value="提交简历"/>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<div class="container">
+				<hr />
+				<div class="foot">
+				<p>Designed by L&Z</p>
+				<p>Copyright © 2020 L&Z. All Rights Reserved. 栗子公司 版权所有</p>
+			</div>	
+			</div>
+		</div>
+	</body>
+</html>

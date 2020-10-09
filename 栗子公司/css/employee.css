@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.header{
+	display: block;
+}
+
+
+iframe{
+	width: 100%;
+	display: block;
+	height:650px;
+
+}
+.gzhj{
+	background-color: lavenderblush;
+	margin-top: 80px;
+}
+h2{
+	font-family: "新宋体";
+}
+.gzhj span{
+	font-size: 19px;
+	font-weight: 600;
+}
+

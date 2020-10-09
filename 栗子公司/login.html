@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+		<link href="css/login.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery-3.4.1.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="js/login.js" ></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<a href="index.html"><img src="img/logo.png"/></a>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div id="loginbox">
+				<div class="loginboxtop">
+					<h2>登录界面</h2>
+				</div>
+				
+				<div class="loginboxform">
+					<form  method="get" action="flow.html">
+						<input type="text" name="phone" id="phone" placeholder="请输入手机号" pattern="1\d{10}" required="required" />
+						<br />
+						<br />
+						<input type="password" name="pwd" id="pwd" placeholder="请输入密码" pattern="[a-zA-Z0-9]{6,30}" required="required" />
+						<br />
+						<br />
+						<input type="text" name="ver" id="ver" placeholder="请输入验证码" required="required"/>
+						<br />
+						<br />	
+         				<div class="code" id="checkCode" onclick="createCode()" ></div>
+         				<a href="#" onclick="createCode()">点击获取验证码</a>
+						<br /><br />
+						<input class="log" type="submit" id="log" name="log" value="登    录"/>
+
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<div class="container">
+				<hr />
+				<div class="foot">
+				<p>Designed by L&Z</p>
+				<p>Copyright © 2020 L&Z. All Rights Reserved. 栗子公司 版权所有</p>
+				</div>	
+			</div>
+		</div>		
+		
+	</body>
+</html>

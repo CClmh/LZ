@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.header{
+	display: block;
+}
+
+
+iframe{
+	width: 100%;
+	display: block;
+	height:650px;
+
+}
+
+span{
+	font-family: "新宋体";
+	font-size: 32px;
+	font-weight: 800;
+}
+p{
+	font-size: 15px;
+	color: darkslategray;
+}
+img{
+	width: 100%;
+}
+
